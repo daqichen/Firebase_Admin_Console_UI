@@ -27,10 +27,10 @@ const App = () => {
          <BrowserRouter>
          <Routes>
           <Route exact path={ROUTES.HOME} element={<Home/>} />
-          <Route exact path={ROUTES.ORIGAMI} element={<Origami/>} />
-          <Route exact path={ROUTES.ADD} element={<Add/>} />
-          <Route exact path={ROUTES.TVMAZE} element={<TVmaze/>} />
-          <Route exact path={ROUTES.ADMIN} element={<AdminPage/>} />
+          <Route path={ROUTES.ORIGAMI} element={<Origami/>} />
+          <Route path={ROUTES.ADD} element={<Add/>} />
+          <Route path={ROUTES.TVMAZE} element={<TVmaze/>} />
+          <Route path={ROUTES.ADMIN} element={<AdminPage/>} />
 
         </Routes>
         
