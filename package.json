@@ -1,6 +1,6 @@
 {
   "name": "Firebase_Admin_Console_UI",
-  "homepage": "https://daqichen.github.io/Firebase_Admin_Console_UI/", 
+  "homepage": "https://daqichen.github.io/Firebase_Admin_Console_UI/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
