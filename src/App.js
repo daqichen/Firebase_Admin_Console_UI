@@ -24,7 +24,7 @@ const App = () => {
         <Navbar />
       </div>
        <div className="App">
-         <BrowserRouter basename={'Firebase_Admin_Console_UI'}>
+         <BrowserRouter basename='/Firebase_Admin_Console_UI'>
          <Routes>
           <Route exact path='/' element={<Home/>} />
           <Route path='/origami' element={<Origami/>} />
