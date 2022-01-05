@@ -1,0 +1,144 @@
+* {
+    /* font-weight: 100; */
+    font-family: 'Source Code Pro', monospace;
+    /* padding-left: 10px; */
+}
+.tabs {
+    margin: 5em;
+}
+
+.profilepic {
+    object-fit: cover;
+    object-position: center;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: auto;
+    display: flex;
+    border: 2px solid #728c699a;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.contentContainer {
+    padding: 6% 5%;
+    width: 50%;
+}
+
+ul > li:before {
+    content: "";
+}
+
+.videoContainer {
+    padding: 5% 5%;
+    width: 50%;
+}
+
+.imgContainer {
+    width: 50%;
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.name {
+    color: #005c3a;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.info {
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.doc {
+    color: #666666;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.doc a{
+    color:cadetblue;
+}
+
+.body {
+    color: #005c3a;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toast {
+    max-width: 70vw;
+    background-color: #728c6933;
+}
+
+.updateButton {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    background-color: #728c69;
+    border: 0px;
+    margin:1em 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:white;
+    text-align:center;
+    transition:all 0.2s;
+}
+
+.updateButton:hover {
+color:#728c69;
+background-color: powderblue;
+}
+@media all and (max-width:30em) {
+.updateButton{
+    display: block;
+    margin:0.4em auto;
+}
+}
+
+.deleteButton {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    background-color: salmon;
+    margin:1em 5.3em 0.3em 0;
+    border: 0px;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:white;
+    text-align:center;
+    transition:all 0.2s;
+}
+
+.deleteButton:hover {
+color:salmon;
+background-color: powderblue;
+}
+@media all and (max-width:30em) {
+.deleteButton{
+    display: block;
+    margin:0.4em auto;
+}
+}

@@ -1,0 +1,137 @@
+/* https://fonts.google.com/specimen/Source+Code+Pro */
+* {
+  /* font-weight: 100; */
+  font-family: 'Source Code Pro', monospace;
+  /* padding-left: 10px; */
+}
+
+a {
+  font-family: 'Source Code Pro', monospace;
+  color: #F0EEF9;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.md-theme-default a:not(.md-button) {
+  color: #2b87c3;
+}
+
+.md-theme-default a:hover:not(.md-button) {
+  color: #5bbcfb;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Source Code Pro', monospace;
+  line-height: 1.0;
+  user-select: none;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 150ms;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+  text-indent: 0em;
+  padding-left: 4em;
+}
+
+ul > li:before {
+  content: "  ";
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 150ms;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  border-bottom: 1px solid #F0EEF9;
+  align-items: center;
+  font-size: 16px;
+  padding-left: 1.5rem;
+  background-color:#728c69;
+}
+
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.navItem {
+  display: inline-block;
+  padding-right: 2.25rem;
+  padding-left: 2.25rem;
+}
+.navAuth {
+  text-align: right;
+}
+
+.navButton {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #728c69;
+  margin-top: 1.5em;
+  margin-right: 1.5rem;
+  /* margin-left: 20em; */
+  border-radius:1.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:300;
+  color:#728c69;
+  text-align:center;
+  transition:all 0.2s;
+}
+
+.navButton:hover {
+  color:#728c69;
+  background-color: powderblue;
+}
+@media all and (max-width:30em) {
+  .navButton{
+    display: block;
+    margin:0.4em auto;
+  }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid powderblue; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .35em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:powderblue; }
+}

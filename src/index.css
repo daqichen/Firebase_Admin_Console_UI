@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+}
+
+.App {
+  margin-top:100px;
+}
+
+.projects {
+  margin-left: 40px;
+}
+
+.container {
+  margin: 30px;
+}
+
+.containerWithBorder {
+  border: 2px solid #728c699a;
+  width: 70vw;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.form {
+  position: relative;
+  width: 60vw;
+  height: auto;
+  margin: 20px;
+}
+
+.form a {
+  color:#728c69;
+}
+
+.form h2 {
+  margin-top: 10px;
+}
+
+.title {
+  color: #005c3a;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contentTitle {
+  color: #728c69;
+  font-weight: lighter;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.mb-3 {
+  width: 60vw;
+}
+
+.mb-4 {
+  width: 20vw;
+}
+
+
+.customButton {
+  display:inline-block;
+  padding:1.35em 1.2em;
+  border:0.1em solid #728c69;
+  margin:0 0.3em 1.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:300;
+  color:#728c69;
+  text-align:center;
+  transition:all 0.2s;
+}
+
+.customButton:hover {
+  color:#728c69;
+  background-color: powderblue;
+}
+@media all and (max-width:30em) {
+  .customButton{
+    display: block;
+    margin:0.4em auto;
+  }
+}
