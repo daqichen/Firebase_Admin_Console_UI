@@ -35,11 +35,11 @@ const Navbar = () => {
       <div className={styles.navContainer}>
       
         <ul className={styles.navLinks}>
-          <a className={styles.typewriter} href={ROUTES.HOME}>Poor Frontend</a>
-          <a className={styles.navItem} href={ROUTES.ORIGAMI}>Origami</a>
-          <a className={styles.navItem} href={ROUTES.ADD}>POST/Add</a>
-          <a className={styles.navItem} href={ROUTES.TVMAZE}>TVmaze&nbsp;Demo</a>
-          {user && <a className={styles.navItem} href={ROUTES.ADMIN}>Account</a>}
+          <a className={styles.typewriter} href={"/Firebase_Admin_Console_UI"+ROUTES.HOME}>Poor Frontend</a>
+          <a className={styles.navItem} href={"/Firebase_Admin_Console_UI"+ROUTES.ORIGAMI}>Origami</a>
+          <a className={styles.navItem} href={"/Firebase_Admin_Console_UI"+ROUTES.ADD}>POST/Add</a>
+          <a className={styles.navItem} href={"/Firebase_Admin_Console_UI"+ROUTES.TVMAZE}>TVmaze&nbsp;Demo</a>
+          {user && <a className={styles.navItem} href={"/Firebase_Admin_Console_UI"+ROUTES.ADMIN}>Account</a>}
           {/* <a className={styles.navItem} href="/subredditcool">SubredditAPI</a> */}
         </ul>
         <ul className={styles.navAuth}>

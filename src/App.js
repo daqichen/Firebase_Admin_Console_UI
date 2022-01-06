@@ -24,13 +24,13 @@ const App = () => {
         <Navbar />
       </div>
        <div className="App">
-         <BrowserRouter basename='/Firebase_Admin_Console_UI'>
+         <BrowserRouter basename="/Firebase_Admin_Console_UI">
          <Routes>
-          <Route exact path='/' element={<Home/>} />
-          <Route path='/origami' element={<Origami/>} />
-          <Route path='/post' element={<Add/>} />
-          <Route path='/tvdemo' element={<TVmaze/>} />
-          <Route path='/admin' element={<AdminPage/>} />
+          <Route exact path={ROUTES.HOME} element={<Home/>} />
+          <Route path={ROUTES.ORIGAMI} element={<Origami/>} />
+          <Route path={ROUTES.ADD} element={<Add/>} />
+          <Route path={ROUTES.TVMAZE} element={<TVmaze/>} />
+          <Route path={ROUTES.ADMIN} element={<AdminPage/>} />
 
         </Routes>
         
