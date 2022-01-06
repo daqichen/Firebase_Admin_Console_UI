@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Firebase_Admin_Console_UI/static/css/main.f902d0d1.chunk.css",
-    "main.js": "/Firebase_Admin_Console_UI/static/js/main.e16f43eb.chunk.js",
-    "main.js.map": "/Firebase_Admin_Console_UI/static/js/main.e16f43eb.chunk.js.map",
+    "main.css": "/Firebase_Admin_Console_UI/static/css/main.991eb5d0.chunk.css",
+    "main.js": "/Firebase_Admin_Console_UI/static/js/main.d57d120b.chunk.js",
+    "main.js.map": "/Firebase_Admin_Console_UI/static/js/main.d57d120b.chunk.js.map",
     "runtime-main.js": "/Firebase_Admin_Console_UI/static/js/runtime-main.0a4961a1.js",
     "runtime-main.js.map": "/Firebase_Admin_Console_UI/static/js/runtime-main.0a4961a1.js.map",
     "static/css/2.cf4373cb.chunk.css": "/Firebase_Admin_Console_UI/static/css/2.cf4373cb.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.d192a8fb.chunk.js.map": "/Firebase_Admin_Console_UI/static/js/3.d192a8fb.chunk.js.map",
     "index.html": "/Firebase_Admin_Console_UI/index.html",
     "static/css/2.cf4373cb.chunk.css.map": "/Firebase_Admin_Console_UI/static/css/2.cf4373cb.chunk.css.map",
-    "static/css/main.f902d0d1.chunk.css.map": "/Firebase_Admin_Console_UI/static/css/main.f902d0d1.chunk.css.map",
+    "static/css/main.991eb5d0.chunk.css.map": "/Firebase_Admin_Console_UI/static/css/main.991eb5d0.chunk.css.map",
     "static/js/2.93bd8e24.chunk.js.LICENSE.txt": "/Firebase_Admin_Console_UI/static/js/2.93bd8e24.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0a4961a1.js",
     "static/css/2.cf4373cb.chunk.css",
     "static/js/2.93bd8e24.chunk.js",
-    "static/css/main.f902d0d1.chunk.css",
-    "static/js/main.e16f43eb.chunk.js"
+    "static/css/main.991eb5d0.chunk.css",
+    "static/js/main.d57d120b.chunk.js"
   ]
 }
