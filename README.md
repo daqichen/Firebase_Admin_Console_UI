@@ -10,6 +10,36 @@ A more detailed and more structured guide can be found at this <a href="https://
 
 Firebase Admin Console is a centralized platform for easy viewing and maintenance of Firestore database, the application's [front-end](https://github.com/daqichen/Firebase_Admin_Console_UI) is built in ReactJS, and the [back-end API](https://github.com/daqichen/Firebase-admin-console-FlaskAPI) is a Python Flask app. This application serves as a starting template for developers to customize, build, and even deploy the desired admin console for their DB. 
 
+`Logged-in Landing Page View: `
+
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/55526292/148452533-37d75809-f79a-40ee-b6c2-5dd1ddfca6ce.png">
+
+
+`Firestore DB Documents View: `
+
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/55526292/148452778-a9522bdd-d187-4f8e-9ce0-57678ea272fc.png">
+
+
+`Create New Document Form: `
+
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/55526292/148452972-3aadcf8f-ce1b-48df-81ca-adae54f9e388.png">
+
+`TV Maze API Demo: `
+
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/55526292/148453161-5d12f58d-238f-4860-a6f5-f7d713d2163e.png">
+
+
+`Admin Page: `
+
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/55526292/148452625-8cf1c47d-9685-40fc-9431-9bc30cf05d5f.png">
+
+`Limiting Access to Logged-in User: `
+
+<img width="1435" alt="image" src="https://user-images.githubusercontent.com/55526292/148453540-6d6509ef-989f-46a1-a868-a42c6697f561.png">
+
+
+# Detailed Code Walk-thru 
+
 ## Create React App
 
 To clone this repo and install all the required packages:
