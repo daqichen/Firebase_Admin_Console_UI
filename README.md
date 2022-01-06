@@ -8,7 +8,7 @@ A more detailed and more structured guide can be found at this <a href="https://
 
 ## Overview
 
-Firebase Admin Console is a centralized platform for easy viewing and maintenance of Firestore database, the application's front-end is built in ReactJS, and the back-end API is a Python Flask app. This application serves as a starting template for developers to customize, build, and even deploy the desired admin console for their DB. 
+Firebase Admin Console is a centralized platform for easy viewing and maintenance of Firestore database, the application's [front-end](https://github.com/daqichen/Firebase_Admin_Console_UI) is built in ReactJS, and the [back-end API](https://github.com/daqichen/Firebase-admin-console-FlaskAPI) is a Python Flask app. This application serves as a starting template for developers to customize, build, and even deploy the desired admin console for their DB. 
 
 ## Create React App
 
